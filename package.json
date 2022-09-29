@@ -1,6 +1,6 @@
 {
-  "name": "@nilos/node-rdkafka",
-  "version": "v2.13.1",
+  "name": "myfork-node-rdkafka",
+  "version": "v2.14.0",
   "description": "Node.js bindings for librdkafka",
   "librdkafka": "1.8.2",
   "main": "lib/index.js",
