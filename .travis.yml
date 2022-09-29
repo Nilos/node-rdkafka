@@ -58,9 +58,9 @@ jobs:
       deploy:
         provider: npm
         skip_cleanup: true
-        email: webmakersteve@gmail.com
+        email: npm@ovt.me
         api_key:
-          secure: "GUI9X1TnemXIMj5nZDqjrB3zBdMVxhAVKz18BN8TzsQBBne7BOrZ7L9yM3nOwxydm53NAPHFnEjYhYhvM+qhzLnik+XFQ7O3i9rS0hAvzQOBXfup5daib5A8VPMEdTRCXPS3hZ+p5n3ZBruSCQnyTu+HL1SGH//L+j52T5hiOZ3HauhCx9Q0myTBhB6CU5L8yscUUMg12qL7Uw4jsJLfgBRq6hAxphKXfvKt+NJMOWMSmQMbC1FxgfEgIkjFUtasWcUqCmfqx+983XdhhGhC64CYkusSZynNxnsTAosZGJiIZTPYXXL+imBgsEpsMCnW/id/qwaDzRueh2vWlBq2Lk9XSU3VOlKf8nMCJafc3CVjdOZvekyk+WU23gFd4Tpmwk0OtOOM2CKMoNxeMfNvA7ovQ96PP+LDdnRvdoFZV/oX3v3jaXR6DXFd8jnqRTpK4qj7qFO9eWgy1vXdfpwwS2gGVkFvSlWa3niBWzfLSL49Lm7UBwPKJYq0V5taO2dXz8nniTBAQJDcIEKaJkG6IYw5qnLpDLHB3jIw4NwYWw6f/cB5KZXCSeoGBOb9/61XD6Uq0QoQLIhj/vTKmOjNtZHlBzHUoKGYrP+SQRk9BgYh/Cr0azVhSpm2Zjz1fTJ1kYWKzHU8JPyWf6/isKQM4FLhFvWihy/kxkVTkZGR0b4="
+          secure: "LEyXqiZURgmqSFH8vaGg48uqOBn5fjRFHgUGiK1wJizRfQdGxITxcBdWAqxgXQBKuRTjLAx+0/wnN8wTdnaQE772WMZa6rwid9lZ/7v8djtcjpaPKYGcHY5qqk8Zd9oVwj5nlIountWDWx3U/PMvIfOJyudMz6/yicMJczTKxqKkMQrOFoE34VH2eMfyBHWzYgjtXlBYr55ryrAom9zbd+6bD/jZOEAqR2YB1gpCANZR1W1mKgAd1q/8N89bhTwVYHS8sRo4QN8nghJarf02FikKWPKW6DhLFDoqP1+DsQBu2EIlwlmHa3iGmhK8y6WsuGlSzVejzstAn3N8/hQN19BGBn0foiABL6rfe9ONDjF3+LDGjWu7kPtrZ7I+b+iNzt6VzHHfr9R3M9L6ug1T1rtzJDRXyW8HhZdyGYxYgdMld1Hr62B6c06tHRtJgYjeaTfhkh54EN2FiL/e7CcfHDiU8mP3hoQsK00ev3qtySWi8H26BlaE2Wl13FYCvx+ITxjYgVCx93fh0VgrSHm9+wEOpaYlN/2s8N3ZHohRRlGyR68KFcoyRNuI4aOpCe9aeFSEybjBCVmRybGTwRVeDUw762DlHPScDeK5tYZabDJjxRLh3I9uj7Xd4W8LLq9xZdxZfrwQnb9H0cJWEQU8AXkoPA5oxB3F7tCpkiSjG/g=" 
         on:
           tags: true
       after_deploy:
