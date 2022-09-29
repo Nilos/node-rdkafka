@@ -1,6 +1,6 @@
 {
-  "name": "node-rdkafka",
-  "version": "v0.0.1",
+  "name": "myfork-node-rdkafka",
+  "version": "v0.0.2",
   "description": "Node.js bindings for librdkafka",
   "librdkafka": "1.8.2",
   "main": "lib/index.js",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:Blizzard/node-rdkafka.git"
+    "url": "git@github.com:Nilos/node-rdkafka.git"
   },
   "contributors": [
     {
